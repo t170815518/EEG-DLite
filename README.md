@@ -1,7 +1,7 @@
 # EEG-DLite: Data Distillation for Efficient EEG Foundation Model Training
 
 [![Paper](https://img.shields.io/badge/paper-AAAI%202026-blue)](your-paper-link)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-CBCR-green.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 
 **EEG-DLite** is the first systematic framework for pre-training data distillation in EEG foundation models. 
