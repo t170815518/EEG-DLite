@@ -4,7 +4,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 
-**EEG-DLite** is the first systematic framework for pre-training data distillation in EEG foundation models.
+**EEG-DLite** is the first systematic framework for pre-training data distillation in EEG foundation models. 
+The paper is available at: [arXiv:2512.12210](https://arxiv.org/abs/2512.12210)
 
 ![main_framework.png](assets/main_framework.png)
 
@@ -79,6 +80,27 @@ python run_labram_pretraining.py \
         --seed 32 \
 ```
 (You may check `utils.py` and `data_processor` to see more details.)
+
+## CBCR License
+| Permissions | Limitations | Conditions |
+| :---         |     :---:      |          :---: |
+| :white_check_mark: Modification   | :x: Commercial use   | :warning: License and copyright notice   |
+| :white_check_mark: Distribution     |       |      |
+| :white_check_mark: Private use     |        |      |
+
+## Cite
+Please cite our paper if you use our code in your own work:
+```bibtex
+@misc{tang2025eegdlitedatasetdistillationefficient,
+      title={EEG-DLite: Dataset Distillation for Efficient Large EEG Model Training}, 
+      author={Yuting Tang and Weibang Jiang and Shanglin Li and Yong Li and Chenyu Liu and Xinliang Zhou and Yi Ding and Cuntai Guan},
+      year={2025},
+      eprint={2512.12210},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2512.12210}, 
+}
+```
 
 ## Reference
 https://github.com/935963004/LaBraM
